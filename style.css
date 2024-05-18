@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: "Passion One", sans-serif;
+    --fonte2: "Sriracha", cursive;
+}
+
+
 body{
     margin: 0 0 0 0;
     min-height: 100vh;
@@ -14,13 +23,15 @@ header{
 
 h1{
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: var(--fonte1);
     font-weight: 500;
     padding-top: 50px;
     font-variant: small-caps;
     margin: 0 0;
+    font-size: 10vw;
 }
 a{
+    font-family: Arial, Helvetica, sans-serif;
     color:white;
     text-decoration: none;
     font-weight: bold;
@@ -29,40 +40,43 @@ a:hover{
     text-decoration: underline;
 }
 #por{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin: 10px auto;
 }
 
 div{
     padding: 10vh 0 10vh 30px;
-    line-height: 2em;
+    line-height: 1.5em;
     margin: 0px;
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 0px 0px 10px black;
-    
+    font-size: 3.5vw;
+    display: inline-block;
     display: flex;
     align-items: center;
-    height: 40vh;
+    
 }
 #flor{
     padding: 10vh 0 10vh 30px;
-    line-height: 2em;
+    line-height: 1.5em;
     position: relative;
-    width: 100;
+ display: inline-block;
     height: 80vh;
     background-image: url("imagens/background001.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 3.5vw;
     
     display: flex;
     align-items: center;
     
 }
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte2);
     font-size: large;
     width: 400px;
     margin: 50px;
@@ -91,20 +105,22 @@ p.tc{
 }
 #carta{
     padding: 10vh 0 10vh 30px;
-    line-height: 2em;
-    width: 100;
+    line-height: 1.5em;
+    display: inline-block;
     height: 80vh;
     background-image: url("imagens/background002.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 3.5vw;
     
     display: flex;
     align-items: center;
     
 }
 footer{
+    font-family: Arial, Helvetica, sans-serif; 
     background-color: black;
     margin: 0;
     padding: 20px;
